@@ -1,5 +1,5 @@
 body{
-    background: url("./src/svgs/backgroundImage.png");
+    background: url("./svgs/backgroundImage.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -80,7 +80,7 @@ p{
     grid-template-columns: 20% 20% 40% 20%;
 }
 .row1 .col1{
-    background: url(src/svgs/picture1.svg);
+    background: url(svgs/picture1.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -98,7 +98,7 @@ p{
     grid-template-columns: 35% 65%;
 }
 .musicpic{
-    background: url("src/svgs/picture3.svg") ;
+    background: url("svgs/picture3.svg") ;
     background-repeat: no-repeat;
     background-size: cover;
 }
