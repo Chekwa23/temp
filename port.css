@@ -36,7 +36,16 @@ p{
     font-family:"AirbnbCerealLight";
     font-weight: 300;
 }
-
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.socials i{
+    color: #ffffff;
+}
 .top{
     height: 30%;
     /* background-color: red; */
