@@ -1,0 +1,10 @@
+.backlay{
+    /* height: 100vh; */
+    /* background-color: blue; */
+}
+.formbox{
+    /* background-color: red; */
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 1px 5px 20px #888888;
+}
