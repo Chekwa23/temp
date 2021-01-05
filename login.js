@@ -21,7 +21,7 @@ document.getElementById("login-btn").onclick = function () {
             var errorCode = error.code;
             var errorMessage = error.message;
             console.log(errorCode);
-            window.alert(errorMessage);
+            window.alert("username or password do not match");
         });
 
 
