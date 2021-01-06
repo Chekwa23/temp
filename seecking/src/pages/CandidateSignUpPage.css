@@ -49,23 +49,20 @@ body{
 }
 .formbox{
     background-color: white;
-    padding: 10% 10%;
+    padding: 5% 5%;
     /* border: 10px solid blue; */
     border-radius: 10px;
     width: 80%;
     box-shadow: 5px 10px 18px #888888;
 }
-/* button{
-    outline-color: red !important;
-    
-} */
-.btn {
-    outline-color: red !important;
-  }
 .form-header button:hover{
     background-color: #B3EAFC;
 }
 .submitbtn{
     background-color: #B3EAFC;
     /* color: white; */
+}
+#terms{
+    color: black;
+    text-decoration: underline;
 }

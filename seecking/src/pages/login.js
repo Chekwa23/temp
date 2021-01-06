@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import seeckingLogo from '../images/seeckingLogo.png';
 import './login.css';
 
 export default class login extends Component {
@@ -14,7 +16,7 @@ export default class login extends Component {
                     <div className="row">
                         <div className="col-md-6 left">
                             <div className="brandName">
-                                {/* <img class="logo" src="images/seeckingLogo.png" alt=""> */}
+                                <img class="logo" src={seeckingLogo} alt=""/>
                                 <p class="pt-4">SEECKING</p>
                             </div>
                             <div className="intro pb-5">
@@ -42,12 +44,11 @@ export default class login extends Component {
                                             <label for="exampleInputPassword1">Password</label>
                                             <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Enter Password"/>
                                         </div>
+                                        <button type="submit" className="btn btn-lg btn-block submitbtn">Sign In</button>
                                         <br/>
                                         <hr/>
-                                        <br/>
-                                        <button type="submit" className="btn btn-lg btn-block submitbtn">Sign In</button>
-                                        <div className="footer text-center">
-                                            <p>New to Seecking? <a href="signup.html">Sign Up</a></p>
+                                        <div className="footer text-center mt-4">
+                                            <p>New to Seecking? <Link to="/CandidateSignUpPage">Sign Up</Link></p>
                                             <p>Forgot your password? <a href="#">Recover password</a></p>
                                         </div>
                                     </form>
