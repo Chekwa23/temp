@@ -6,7 +6,7 @@ document.getElementById("SignUp").onclick = function () {
     const confirmpassword = document.querySelector('#exampleInputPassword2').value;
 
     if (confirmpassword != password) {
-        window.alert("Passwords donot match");
+        window.alert("Passwords do not match");
     } else {
         var firebaseConfig = {
             apiKey: "AIzaSyDwjbCyTjacYVq8GaJP1wSX9YiBbA0OWqA",
