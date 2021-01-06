@@ -1,15 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Navbar from './components/Navbar';
+import login from './pages/login';
 
 function App() {
   return (
     <>
       <Router>
-        <Navbar />
         <Switch>
-          <Route path="/" exact />
+          <Route path="/" exact component={login} />
         </Switch>
       </Router>
     </>
